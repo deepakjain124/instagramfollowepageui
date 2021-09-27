@@ -1,0 +1,449 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(39, 37, 37);
+}
+
+.navbar h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.navbar input[type="text"] {
+    text-decoration: none;
+    width: 305px;
+}
+
+.navbar .btn {
+    background-color: rgb(38, 240, 48);
+    margin-left: 5px;
+    padding: 7px;
+    width: 100px;
+    text-transform: capitalize;
+}
+
+.cards {
+    border: 1px solid black;
+    width: 420px;
+    padding: 5px;
+}
+
+.cards p {
+    margin-left: 40px;
+}
+
+.cards .abt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+/* TASK CSS
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.box {
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.follower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.follower p {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.follower p:nth-child(2) {
+    color: gainsboro;
+}
+
+hr {
+    color: gainsboro;
+    margin-top: 1px;
+}
+
+.searchfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchfield input[type="text"] {
+    width: 250px;
+    caret-color: rgb(255, 255, 255);
+    background-color: rgb(114, 114, 114);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.searchfield input[type="text"]:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.box .id h2 {
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.box .id .fas {
+    margin-right: 10px;
+}
+
+.items .detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.items .button {
+    width: 100px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.items .remove p {
+    margin-top: 10px;
+    color: rgb(155, 136, 136);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:checked {
+    border: none;
+}
+
+.detail img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.detail .name p {
+    line-height: 1px;
+    color: white;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.result {
+    color: gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+} */
+
+
+/* CURRENCY CSS*/
+
+
+/* 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.searchbar {
+    text-overflow: ellipsis;
+}
+
+.searchbar h1 {
+    color: rgb(247, 11, 11);
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.searchbar input[type="text"] {
+    border-radius: 5px;
+    outline: none;
+    caret-color: thistle;
+    border: none;
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: rgb(8, 19, 14);
+    transition: .5s all ease-in;
+}
+
+.searchbar input[type="text"]:hover {
+    box-shadow: 5px 5px 5px rgb(12, 18, 68);
+}
+
+.coin-container {
+    display: flex;
+    background-color: rgb(41, 40, 40);
+    justify-content: center;
+}
+
+.coin-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+.coin h1 {
+    font-size: 16px;
+    width: 150px;
+}
+
+.coin img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.coin-symbol {
+    text-transform: uppercase;
+}
+
+.coin-data {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.coin-price {
+    width: 110px;
+}
+
+.coin-volume {
+    width: 155px;
+}
+
+.coin-marketcap {
+    width: 230px;
+}
+
+.coin-percent {
+    width: 100px;
+}
+
+.red {
+    color: #f00606;
+}
+
+.green {
+    color: #11d811;
+} */
+
+
+/* EXPENCE TRACKER */
+
+.theme {
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+    cursor: pointer;
+    top: 0;
+    margin-right: 10px;
+}
+
+.theme:focus.container.heading {
+    background-color: rgb(139, 129, 129);
+}
+
+.container {
+    margin-top: 20px;
+    width: 400px;
+    box-shadow: 4px 5px 20px black;
+    text-align: center;
+}
+
+.container .heading h1 {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.balance {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.balance p {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.balance button {
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 4px;
+    width: 100px;
+}
+
+.add {
+    display: block;
+    justify-content: center;
+    margin: 15px;
+    align-items: center;
+    border: 1px solid rgb(146, 124, 124);
+    border-radius: 5px;
+}
+
+.add input[type="number"] {
+    margin-top: 10px;
+    border: 1px solid rgb(65, 63, 61);
+    border-radius: 5px;
+    outline: none;
+}
+
+.add input[type="text"] {
+    margin-top: 10px;
+    border: 1px solid rgb(56, 55, 52);
+    border-radius: 5px;
+    outline: none;
+}
+
+.radio {
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.add button {
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 15px;
+    width: 150px;
+}
+
+.current-bal {}
+
+.current-bal .boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.boxes .expence,
+.income {
+    border: 1px solid rgb(216, 211, 211);
+    width: 150px;
+    line-height: 15px;
+    border-radius: 10px;
+}
+
+.boxes .expence,
+.income p:nth-child(1) {
+    font-weight: bold;
+}
+
+.boxes .expence p:nth-child(2) {
+    color: red;
+    font-weight: bold;
+}
+
+.boxes .income p:nth-child(2) {
+    color: green;
+    font-weight: bold;
+}
+
+.transaction h1 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    width: 60%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(75, 75, 75);
+}
+
+.all {
+    height: 100px;
+    margin: 20px;
+}
+
+.all .indi p {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.indi p {
+    word-spacing: 150px;
+    color: gray;
+    font-weight: bold;
+    text-transform: capitalize;
+}
